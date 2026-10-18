@@ -8,9 +8,7 @@
 
 > **Note: all data is synthetic.** `src/generate_data.py` creates 5,000 randomly generated orders (seeded, so results are reproducible). No real company or customer data is used, and the findings below describe the generated data, not a real business.
 
-DataPulse is an end-to-end business analytics dashboard built with Python, SQL, Pandas, Plotly, Scikit-Learn, and Streamlit.
-
-The project analyzes sales performance, profitability, customer behavior, product trends, and revenue forecasting.
+DataPulse analyzes sales performance, profitability, customer behavior, product trends, and revenue forecasting.
 
 ## Example findings (from the seeded synthetic data)
 
@@ -27,17 +25,6 @@ The project analyzes sales performance, profitability, customer behavior, produc
 - Product performance analysis
 - Revenue forecasting
 - Interactive Streamlit dashboard
-
-## Tech Stack
-
-- Python
-- SQL
-- SQLite
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-- Scikit-Learn
 
 ## Project Structure
 
@@ -68,3 +55,7 @@ python src/generate_data.py     # writes data/sales_data.csv
 python src/build_database.py    # writes database/datapulse.db
 streamlit run dashboard/app.py  # opens the dashboard at http://localhost:8501
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
